@@ -949,6 +949,15 @@ form label {
     font-family: "Sacramento", Arial, serif;
 }
 
+#fh5co-header .display-tc h2,
+#fh5co-counter .display-tc h2,
+.fh5co-cover .display-tc h2 {
+    margin-bottom: 0px;
+    font-size: 80px;
+    line-height: 1.5;
+    font-family: "Sacramento", Arial, serif;
+}
+
 @media screen and (max-width: 768px) {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
@@ -965,6 +974,22 @@ form label {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #fh5co-header .display-tc h2,
+    #fh5co-counter .display-tc h2,
+    .fh5co-cover .display-tc h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #fh5co-header .display-tc h2,
+    #fh5co-counter .display-tc h2,
+    .fh5co-cover .display-tc h2 {
+        font-size: 20px;
+    }
+}
+
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
@@ -978,6 +1003,14 @@ form label {
     #fh5co-counter .display-tc h2,
     .fh5co-cover .display-tc h2 {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #fh5co-header .display-tc h2,
+    #fh5co-counter .display-tc h2,
+    .fh5co-cover .display-tc .h2 h2 {
+        font-size: 20px;
     }
 }
 
@@ -1745,24 +1778,27 @@ form label {
     outline: none;
 }
 
-.fh5co-nav-toggle {
+
+/* .fh5co-nav-toggle {
     width: 25px;
     height: 25px;
     cursor: pointer;
     text-decoration: none;
-}
+} */
 
-.fh5co-nav-toggle.active i::before,
+
+/* .fh5co-nav-toggle.active i::before,
 .fh5co-nav-toggle.active i::after {
     background: #444;
-}
+} */
 
-.fh5co-nav-toggle:hover,
+
+/* .fh5co-nav-toggle:hover,
 .fh5co-nav-toggle:focus,
 .fh5co-nav-toggle:active {
     outline: none;
     border-bottom: none !important;
-}
+} */
 
 .fh5co-nav-toggle i {
     position: relative;
